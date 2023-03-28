@@ -13,10 +13,10 @@ DFRobot_ORP_PRO ORP(0);
 #define DO_PIN 2
 float phVoltage, phValue, orpVoltage, orpValue, doVoltage, doValue, temperature = 25;
 
-const char* ssid = "\xF0\x9F\x94\xA5WiFire\xF0\x9F\x94\xA5";
-const char* password = "99498081";
+const char* ssid = "";
+const char* password = "";
 
-const char* mqtt_server = "192.168.1.13";
+const char* mqtt_server = "";
 char msg[20];
 
 #define PH_TOPIC "water_sensors/ph"
